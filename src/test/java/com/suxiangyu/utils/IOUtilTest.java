@@ -13,7 +13,7 @@ public class IOUtilTest {
 
 	@Test
 	public void testCopyFile() {
-		File from = new File("C:\\Users\\32907\\Desktop\\苏祥宇\\23号作业录屏.mp4");
+		File from = new File("C:\\Users\\32907\\Desktop\\苏祥宇\\24号作业.mp4");
 		File to = new File("C:\\Users\\32907\\Desktop\\今天作业效果.mp4");
 		boolean success = IOUtil.copyFile(from, to, true);
 		System.out.println(success);
